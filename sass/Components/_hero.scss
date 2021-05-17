@@ -1,0 +1,22 @@
+.hero {
+  background: #fafafa;
+  width: 100%;
+  @include flexbox-center();
+  flex-direction: column;
+  padding: 50px 0;
+  &__title {
+    text-align: center;
+    max-width: 250px;
+    margin: 0;
+  }
+  &__text {
+    text-align: center;
+    padding: 0 1rem;
+  }
+  &__button {
+    @include button-style;
+    &:hover {
+      @include button-hover;
+    }
+  }
+}
