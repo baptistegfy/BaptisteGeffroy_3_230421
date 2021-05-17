@@ -1,0 +1,19 @@
+.process__contain {
+  padding: 25px 0;
+  width: 100%;
+  background: white;
+  @include flexbox-center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 800px) {
+  .process__step {
+    width: 100%;
+  }
+  .process__steps {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+  }
+}
