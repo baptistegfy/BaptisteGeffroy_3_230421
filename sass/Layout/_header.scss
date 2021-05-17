@@ -5,12 +5,12 @@
   @include flexbox-center();
   height: 80px;
   width: 100%;
-  &--logo {
+  &__logo {
     font-family: $font-logo-title;
     margin: 0;
     color: #000;
   }
-  &--arrow {
+  &__arrow {
     width: 50px;
     height: 50px;
     position: absolute;
