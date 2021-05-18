@@ -8,3 +8,10 @@ body {
   text-decoration: none;
   color: #fff;
 }
+
+.main {
+  margin: 0;
+  padding: 0;
+  @include flexbox-center;
+  flex-direction: column;
+}
