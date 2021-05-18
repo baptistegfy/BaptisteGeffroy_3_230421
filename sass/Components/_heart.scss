@@ -1,0 +1,32 @@
+.restaurant__block-hearth {
+  position: relative;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+  &:hover {
+    .heart-full {
+      opacity: 1;
+    }
+    .heart-empty {
+      opacity: 0;
+    }
+  }
+}
+
+.heart {
+  position: absolute;
+  font-size: 2rem;
+  color: #000;
+  transition: opacity 0.2s linear;
+}
+
+.heart-full {
+  opacity: 0;
+  color: $color-primary;
+  background: $gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heart-empty {
+  opacity: 1;
+}

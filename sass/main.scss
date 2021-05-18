@@ -1,13 +1,21 @@
 // Utils
-
+@import "./Utils/variables";
+@import "./Utils/mixins";
 // Vendors
 
 // Bases
-
+@import "./Base/presets";
 // Components
-
+@import "./Components/location";
+@import "./Components/hero";
+@import "./Components/process";
+@import "./Components/restaurant-card";
+@import "./Components/heart";
+@import "./Components/loader";
 // Layouts
-
+@import "./Layout/header";
+@import "./Layout/footer";
 // Pages
-
+@import "./Pages/home";
+@import "./Pages/menu";
 // Themes
