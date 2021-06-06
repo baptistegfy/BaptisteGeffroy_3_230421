@@ -192,7 +192,7 @@ body {
 
 @media screen and (max-width: 800px) {
   .loader__lettre {
-    font-size: 40px; } }
+    font-size: 60px; } }
 @keyframes close {
   from {
     opacity: 1;
