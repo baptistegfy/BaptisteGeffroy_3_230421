@@ -6,14 +6,12 @@
   bottom: 0;
   right: 0;
   left: 0;
-  // width: 100%;
-  // height: 100%;
   background: #000;
   display: flex;
   justify-content: center;
   align-items: center;
   animation: close 3.6s ease-in;
-  opacity: 1;
+  opacity: 0;
   &__lettre {
     font-family: $font-logo-title;
     color: #484848;
@@ -73,11 +71,10 @@
   animation-delay: 0.8s;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
   .loader {
-    padding: 0 3rem;
     &__lettre {
-      font-size: 24px;
+      font-size: 40px;
     }
   }
 }
