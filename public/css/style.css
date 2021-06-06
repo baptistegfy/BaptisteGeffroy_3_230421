@@ -173,8 +173,10 @@ body {
   pointer-events: none;
   z-index: 2;
   position: fixed;
-  width: 100%;
-  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
   background: #000;
   display: flex;
   justify-content: center;
@@ -188,13 +190,16 @@ body {
     margin-bottom: 150px;
     animation: flash 1.2s linear infinite; }
 
+@media screen and (max-width: 800px) {
+  .loader__lettre {
+    font-size: 60px; } }
 @keyframes close {
   from {
     opacity: 1;
     display: block; }
   to {
     opacity: 0;
-    display: none; } }
+    display: block; } }
 @keyframes flash {
   0% {
     color: #fff900;
